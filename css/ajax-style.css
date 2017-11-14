@@ -1,0 +1,25 @@
+.ajax-text-and-image {
+	max-width:1050px;
+	margin: 20px auto;
+	background: #FFF;
+	padding: 0;
+	line-height: 0;
+}
+.ajcol {
+	width: 50%;
+	float:left;
+	font-family: Lato, Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.ajcol img {
+	width: 95%;
+	height: auto;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-right: 10%;
+}
+.ajcol div {
+	width: 95%;
+	margin-left: 5%;
+}
+

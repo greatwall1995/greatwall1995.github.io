@@ -1,0 +1,46 @@
+﻿<div class="ajax-text-and-image white-popup-block">
+    <link rel="stylesheet" href="css/ajax-style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<div>
+		<div class="ajcol" style="line-height: 1.231;">
+			<div style="padding: 1em">
+				<h1>Tone Classifier</h1>
+				<p><a href="https://github.com/greatwall1995/tone-classifier" target="_blank">Tone Classifier</a> is contributed by Cheng Wan, Xiaojun Xu and Jiaheng Zhang. In this project, we design a deep learning model for recognizing the tone of the voice signal of Chinese words. We further develop sophisticated feature extraction method and denoising mechanism. The classification accuracy achieves 97% while the baseline is 88% and the highest accuracy is 98%.</p><p>We also conduct an empirical comparison between several deep learning toolkits (MXNet, CNTK and Theano) based on this project.</p><p>In this work, I designed the feature extraction method and denoising mechanism independently and implemented the code of MXNet version.</p>
+				<p><strong>image source: </strong>Core-corner</p>
+			</div>
+		</div>
+		<div class="ajcol">
+			<img src="img/tone.jpg" style="opacity:0">
+		</div>
+		<div style="clear:both; line-height: 0;"></div>
+	</div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107506724-1"></script>
+	<script>
+	$(document).ready(function(){
+		$("img").css("opacity", "1");
+	})
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments)};
+	gtag('js', new Date());
+	gtag('config', 'UA-107506724-1');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-107506724-1', 'auto');
+	ga('send', 'pageview');
+	ga('send', 'event', {
+		eventCategory: 'ajax',
+		eventAction: 'open',
+		eventLabel: 'tone'
+	});
+	$('a').click(function() {
+		ga('send', 'event', {
+			eventCategory: 'link',
+			eventAction: 'click',
+			eventLabel: $(this).attr('href')
+		});
+	});
+	</script>
+</div>

@@ -1,0 +1,46 @@
+<div class="ajax-text-and-image white-popup-block">
+    <link rel="stylesheet" href="css/ajax-style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<div>
+		<div class="ajcol" style="line-height: 1.231;">
+			<div style="padding: 1em">
+				<h1>Mugic</h1>
+				<p><a href="https://bitbucket.org/greatwall1995/mugic/src" target="_blank">Mugic</a> is a toy compiler implemented by Cheng Wan. The source language is mixed with C and Java, which is designed by Rong Ma, our teacher of compiler course, and the target code is MIPS assembly language. In this project, we design and implement a parser, an abstract syntax tree and IR language. Furthermore, we conduct a variety of optimization concerning register allocation. The work is written in Java and ANTLR.</p>
+				<p><strong>image source: </strong>jimhogg@uw.edu</p>
+			</div>
+		</div>
+		<div class="ajcol">
+			<img src="img/mugic.jpg" style="opacity:0">
+		</div>
+		<div style="clear:both; line-height: 0;"></div>
+	</div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107506724-1"></script>
+	<script>
+	$(document).ready(function(){
+		$("img").css("opacity", "1");
+	})
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments)};
+	gtag('js', new Date());
+	gtag('config', 'UA-107506724-1');
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-107506724-1', 'auto');
+	ga('send', 'pageview');
+	ga('send', 'event', {
+		eventCategory: 'ajax',
+		eventAction: 'open',
+		eventLabel: 'mugic'
+	});
+	$('a').click(function() {
+		ga('send', 'event', {
+			eventCategory: 'link',
+			eventAction: 'click',
+			eventLabel: $(this).attr('href')
+		});
+	});
+	</script>
+</div>
